@@ -1,1 +1,4 @@
-node_module
+.idea
+node_modules
+npm-debug.log
+Jenkinsfile

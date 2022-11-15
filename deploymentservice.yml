@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: sjrepository/sjimage2:latest
+        image: tejas:latest
         ports:
         - containerPort: 3000
         
@@ -34,5 +34,5 @@ spec:
   ports:
   - protocol: TCP
     port: 5000
-    targetPort: 1000
+    targetPort: 3000
     nodePort: 31110
